@@ -2,9 +2,12 @@
     margin: 50;
     padding: 50;
 }
+body{
+    background-color: rgb(250, 250, 254);
+}
 
 .raleway-font{
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-optical-sizing: auto;
   font-weight: bold;
   font-style:normal;
@@ -15,14 +18,14 @@
   margin-left: 267.5px;
   text-align: center;
 }
-.inter-font {
-  font-family: "Inter", sans-serif;
+.inter-font, .sec-title, .sec-para{
+  font-family: "Inter";
   font-optical-sizing: auto;
-  font-weight: 99;
+  font-weight: bolder;
   font-style:  normal;
  color: blue;
  font-weight: bolder;
- font-size: 40px;
+ font-size: 60px;
 }
 
 .onlyV
@@ -45,7 +48,7 @@ nav{
     margin: 0px 150px;
 }
 
-.sign-up{
+.sign-up,.sec-btn,.p1{
     background-color:#4E47FF ;
     font-weight: bold;
     font-size:23px ;
@@ -77,4 +80,74 @@ nav{
     text-align: center;
     gap: -10px;               
 }
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1000px;
+    gap: 220px;
+}
+.image{
+    border: none;
+    border-radius: 50px;
+}
+.title{
+    margin-top: -420px;
+    margin-left: 2px;
+    
+}
+.sec-title{
+    font-weight: bold;
+    font-size: 55px;
+    color: black;
+}
+.sec-para{
+   text-align: left;
+    margin top: -30px;
+    font-size: 30px;
+    color: darkgray;
+    font-weight: lighter;
+  
+}
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+ main section
+ {
+    margin-top: 130px;
+    margin-bottom: 130px;
+ }
 
+.pro-font{
+    font-size: 50px;
+}
+ .productive{
+    background-color: #c7c2fb;
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 150px;
+ }
+
+ .users ul {
+    text-align:  center;
+    font-size: 80px;
+    list-style: none;
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-around;
+    color: #4c00ff;
+ }
+ .p1{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    margin: 20px;
+    
+
+    
+ }
