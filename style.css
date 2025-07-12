@@ -18,7 +18,7 @@ body{
   margin-left: 267.5px;
   text-align: center;
 }
-.inter-font, .sec-title, .sec-para{
+.inter-font, .sec-title{
   font-family: "Inter";
   font-optical-sizing: auto;
   font-weight: bolder;
@@ -39,6 +39,7 @@ header {
     background-position: center;
     height: 100vh;
     color: rgb(0, 0, 0);
+    display: block;
 }
 
 nav{
@@ -103,12 +104,13 @@ nav{
 }
 .sec-para{
    text-align: left;
-    margin top: -30px;
     font-size: 30px;
     color: darkgray;
     font-weight: lighter;
+    gap: 40px;
   
 }
+
 main{
     max-width: 1140px;
     margin:0 auto;
@@ -125,9 +127,9 @@ main{
  .productive{
     background-color: #c7c2fb;
     border-radius: 20px;
-    padding: 10px 10px;
+    padding: 50px 50px;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 300px;
     margin-left: 150px;
  }
 
@@ -151,3 +153,128 @@ main{
 
     
  }
+.says{
+    padding: 30px;
+    border-radius: 5px ;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 30px;
+}
+.card{
+    gap: 24px;
+    border-radius: 15px;
+    padding: 60px;
+    
+}
+.angelina{
+    border-radius: 15px;
+    margin: 20px;
+}
+.cmnt{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.Ready{
+    text-align: center;
+     padding: 50px;
+    border-radius: 20px ;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    justify-content: space-between;
+}
+.reimg{
+    border-radius: 40px;
+    padding: 20px;
+}
+.start{
+     background-color:#4E47FF ;
+    font-weight: bold;
+    font-size:20px ;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
+.focus{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px;
+}
+.tem{
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 20px;
+}
+.forma{
+    width: 50%;
+    padding: 130px 230px;
+    display: flex;
+    gap: 120px;
+}
+div input[type="text"],div input[type="email"],div textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+   
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+label{
+    margin: 8px;
+}
+.get{
+    font-size: 70px;
+    margin-left: -100px;
+}
+.mahfuj{
+    margin-left:400px;
+}
+
+.under{
+    padding: 100px;
+    border-radius: 5px ;
+    box-shadow: 0px 6px 50px 0px rgba(232, 232, 232, 0.06);
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.deco
+{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-left: 670px;
+    margin-top: 90px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.foottilte
+{
+    margin: 60px 50px;
+    font-size: 80px;
+    color: blue;
+}
+.para-foot{
+    margin: -60px;
+}
+.touchbtn{
+     padding: 14px 20px;
+    font-size: 22px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-top: -100px;
+    font-weight: bold;
+}
